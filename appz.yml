@@ -1,7 +1,7 @@
 app:
     name: prometheus
     code: prometheus
-    notify: eachakala@ecloudcontrol.com
+    notify: svarkey@ecloudcontrol.com
 
 build:
     version: 2.17
@@ -11,7 +11,7 @@ build:
     image_template: prometheus-2.17
 
 deploy:
-    context: alpha/DEV
+    context: shonecloudcontrol/DEV
     type: statefulset
     replicas: 1
     port:
